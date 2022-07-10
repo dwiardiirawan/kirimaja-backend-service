@@ -14,6 +14,9 @@
 4) user service
    * **login**  : `http://localhost:9004/user-service/login`
    
+![alt text](https://github.com/dwiardiirawan/kirimaja-backend-service/blob/master/kirim-aja-db-design.png?raw=true)
+
+   
    
    
 
