@@ -1,0 +1,4 @@
+indico:
+  controllers:
+    url:
+      login: login

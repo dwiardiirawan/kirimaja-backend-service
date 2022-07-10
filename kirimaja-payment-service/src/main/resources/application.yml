@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payment-service
+  config:
+    import: configserver:http://localhost:9000/
+    
+server:
+  port: 9002
+

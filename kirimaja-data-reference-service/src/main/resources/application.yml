@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: data-ref-service
+  config:
+    import: configserver:http://localhost:9000/
+    
+server:
+  port: 9003

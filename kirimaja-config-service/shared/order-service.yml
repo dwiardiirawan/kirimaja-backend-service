@@ -1,0 +1,11 @@
+indico:
+  controllers:
+    url:
+      order: order
+      findOrderById: order/{orderId}
+  config:
+    feign:
+      route:
+        dataReference: data-ref-service
+      url:
+        calculateFee: data-ref-service/calculate-fee/{distance}

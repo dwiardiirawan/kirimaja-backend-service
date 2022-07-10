@@ -1,0 +1,10 @@
+indico:
+  controllers:
+    url:
+      payment: payment
+  config:
+    feign:
+      route:
+        order: order-service
+      url:
+        findOrderById: order-service/order/{orderId}

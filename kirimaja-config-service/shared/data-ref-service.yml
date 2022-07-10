@@ -1,0 +1,8 @@
+indico:
+  controllers:
+    url:
+      country-phone-code-list: country-phone-code
+      country-phone-code-by-id: country-phone-code/{countryCode}
+      delivery-fee-list: delivery-fees
+      calculate-fee: calculate-fee/{distance}
+      
